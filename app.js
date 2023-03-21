@@ -9,7 +9,7 @@ app.use(morgan('combined'));
 app.get("/",(req,res)=>{
 
 
-res.render('index',{username:'Ponlawit', customers: ["Chonnigan"]});
+res.send('Hello');
 
 })
 
